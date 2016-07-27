@@ -1,1 +1,1 @@
-web: python heroku/messages.py
+web: gunicorn test: app
